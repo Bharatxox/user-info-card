@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 400px; */
+    padding: 25px;
+    gap: 20px;
+    border-radius: 5px;
+}
+h1{
+    text-transform: capitalize;
+}
+table{
+    width: 100%;
+}
+tr{
+    text-transform: capitalize;
+}
+td{
+    padding: 10px 0;
+}
+button{
+    padding: 15px;
+    font-size: 17px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+}
+button:active{
+    background-color: rgb(222, 222, 222);
+}
